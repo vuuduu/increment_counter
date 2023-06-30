@@ -1,0 +1,46 @@
+.body-container {
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    min-height: 60vh;
+    margin-top: 2%;
+    margin-left: 30%;
+    margin-right: 30%;
+
+    /* offset-x | offset-y | blur-radius | spread-radius | color */
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+#header-container h1{
+    font-size: 5vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+}
+
+#header-container h2 {
+    font-size: 6vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#increment-btn {
+    background: rgb(98, 162, 55);
+    color: white;
+    height: 3rem;
+    width: 15rem;
+}
+
+#save-btn {
+    background: rgb(34, 102, 138);
+    color: white;
+    height: 3rem;
+    width: 15rem;
+}
+
+#increment-display {
+    font-size: 3vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
