@@ -5,10 +5,11 @@
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    min-height: 60vh;
-    margin-top: 2%;
-    margin-left: 30%;
-    margin-right: 30%;
+    height: 60vh;
+    max-width: 40%;
+    margin: auto;
+    margin-top: 3%;
+    border-radius: 10px;
 
     /* offset-x | offset-y | blur-radius | spread-radius | color */
     box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
@@ -27,6 +28,8 @@
 
 #increment-btn {
     background: rgb(98, 162, 55);
+    border: 1px solid black;
+    border-radius: 10px;
     color: white;
     height: 3rem;
     width: 15rem;
@@ -34,6 +37,8 @@
 
 #save-btn {
     background: rgb(34, 102, 138);
+    border: 1px solid black;
+    border-radius: 10px;
     color: white;
     height: 3rem;
     width: 15rem;
@@ -42,5 +47,6 @@
 #increment-display {
     font-size: 3vh;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
 }
 
